@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="frontPage">
+      <h1>Sign up for local firewatch</h1>
+      <p>Become the change you want to see in the world</p>
+    </div>
+
+    <div id="mainPanels">
+      <div class="imageDemo">
+        <p>What will you do:</p>
+        <img
+          src="https://img.sunset02.com/sites/default/files/image/2016/05/main/firetower-accommodations-view-sun-0616.jpg"
+          alt="fire lookout tower"
+        />
+        <p>You will let us know from any fires while being in a tower like the above!</p>
+      </div>
+
+      <div>
+        <form action="" method="post">
+          <fieldset>
+            <legend>About you</legend>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="👤 Fisrt Name:"
+              required
+            />
+            <input
+              type="text"
+              id="name"
+              name="lastName"
+              placeholder="👤 Enter Last Name:"
+              required
+            />
+          </fieldset>
+          <fieldset>
+            <legend>Contact Info</legend>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="📬 Enter E-mail"
+              required
+            />
+            <input
+              type="tel"
+              id="tel"
+              name="tel"
+              placeholder="🕻 Enter Tel Number"
+              required
+            />
+          </fieldset>
+          <fieldset>
+            <legend>Password</legend>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="🔒 Enter Password"
+              required
+            />
+            <!-- check password with javascript  -->
+            <input
+              type="password"
+              id="password"
+              placeholder="🔒 Confirm Password"
+              required
+            />
+          </fieldset>
+
+          <fieldset>
+            <legend>Take The Step</legend>
+            <button class="submit" type="submit" value="Submit">🌲🌲🌲Submit🌲🌲🌲</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
